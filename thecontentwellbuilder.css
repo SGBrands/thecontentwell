@@ -13465,6 +13465,7 @@ tr.product-header:hover {
 
 #marketingBtn span {
   font-size: 0;
+  display: flex;
 }
 
 #marketingBtn span:before {
@@ -13876,6 +13877,7 @@ div[data-role="profile-data"] h3 {
 
 #webBtn > span {
   font-size: 0;
+  display: flex;
 }
 
 #webBtn > span:before {
