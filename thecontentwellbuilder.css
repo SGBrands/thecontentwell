@@ -14539,4 +14539,9 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 {
 	border: 0;
 }
+
+.note-editor .btn-sm .fa
+{
+	font-size: 13px;
+}
 /** END OF SIGH NEW CSS **/
