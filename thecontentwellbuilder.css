@@ -14544,4 +14544,10 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 {
 	font-size: 13px;
 }
+
+.force-note-editor-to-right.force-note-editor-to-right.force-note-editor-to-right
+{
+	left: unset !important;
+	right: 0 !important;
+}
 /** END OF SIGH NEW CSS **/
