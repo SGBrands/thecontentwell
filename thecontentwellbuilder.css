@@ -14500,11 +14500,11 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 .help-button.smaller-help-button a
 {
 	width: max-content;
-	padding-right: 8px;
+	/* padding-right: 8px; */
 }
 .help-button.smaller-help-button a > i
 {
-	margin-right: 8px;
+	/* margin-right: 8px; */
 }
 .help-button.smaller-help-button a:after
 {
