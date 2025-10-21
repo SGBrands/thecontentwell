@@ -14202,7 +14202,7 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
 /* End API Order Page */
 .email-button.cpanel-text-editor-parent.cpanel-text-editor-minimal
   .note-toolbar.panel-heading.note-toolbar-visible.text-editor-absolute-toolbar {
-  width: 327px;
+  /* width: 327px; */
 }
 
 #fileUploaderButton:before {
