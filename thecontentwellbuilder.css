@@ -14295,7 +14295,7 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
   .cpanel-popup-content
   .cpanel-popup-content-inner
   .justify-center
-  a:nth-child(1):before {
+  a:nth-child(1):has(svg):before {
   content: "crop_din";
 }
 
@@ -14303,7 +14303,7 @@ input[type="radio"].css-checkbox + label.css-label:hover::after {
   .cpanel-popup-content
   .cpanel-popup-content-inner
   .justify-center
-  a:nth-child(2):before {
+  a:nth-child(2):has(svg):before {
   content: "remove_shopping_cart";
 }
 
