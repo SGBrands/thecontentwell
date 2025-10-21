@@ -14508,7 +14508,8 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 }
 .help-button.smaller-help-button a:after
 {
-	content: 'TCW ACADEMY';
+	/*content: 'TCW ACADEMY';*/
+	content: '';
 }
 
 .cpanel-background .working-area-wrapper-inner .dashboard-content-wrapper #main-container .account-settings > #customerCardForm > .content-wrapper > #currentPlanSection > .sections-wrapper
