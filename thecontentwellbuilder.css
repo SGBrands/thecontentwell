@@ -1429,10 +1429,6 @@ body.cpanel-background.narrow-nav .working-area-wrapper {
   width: calc(100% - 42px);
 }
 
-.narrow-nav .clipboard-wrapper {
-  left: 25px;
-}
-
 .store-navigation > .website-actions > ul > li {
   text-align: left;
 }
@@ -1928,7 +1924,6 @@ i.fa.fa-expand-alt {
 }
 
 a.button-tooltip.system-bg-color,
-.clipboard-wrapper .clip-scale,
 .header-additional-row-settings,
 .header-widget-controls.wide-controls,
 .header-widget-controls.with-styling {
@@ -2642,40 +2637,14 @@ a[data-role="new-service"]:hover,
   background: #e1e1e1;
 }
 
-.clipboard-wrapper:not(.open) .clip-icon {
-  background-image: none;
-  position: relative;
-}
-
-.clipboard-wrapper.closed .clip-icon {
-  display: none;
-}
-
-.clipboard-wrapper .clip-icon {
-  width: 35px;
-  height: 35px;
-  transform: scale(0.7);
-  left: 265px;
-}
-
-.clipboard-wrapper .clip-scale,
 .clipboard-wrapper .clip-scale [data-role="copied"] > .clip-container,
 .clipboard-wrapper .clip-scale [data-role="saved"] > .clip-container {
   border-radius: 4px;
 }
 
-.clipboard-wrapper .clip-scale {
-  border-radius: 4px;
-  transition: unset;
-}
-
 .mobile-controls .mobile-view-buttons a.button-tooltip.system-bg-color {
   background-color: #52555f !important;
   padding: 0px 0px 0px 0px;
-}
-
-.clipboard-wrapper {
-  border-radius: 4px;
 }
 
 .action-step-funnel {
@@ -4621,17 +4590,6 @@ a.delete-coupon i:before {
 
 .row-controls-wrapper .row-columns {
   padding: 0 0px 0 7px;
-}
-
-.narrow-nav .clipboard-wrapper {
-  left: 0px;
-  top: 289px;
-  box-shadow: none;
-  background: transparent;
-  width: 36px;
-  height: 36px;
-  margin-left: 2px;
-  z-index: 2 !important;
 }
 
 .cpanel-popup-content
@@ -7018,7 +6976,8 @@ body.cpanel-background
   padding: 20px;
 }
 
-/* CLIPBOARD PLACEMENT FIX */
+/* CLIPBOARD PLACEMENT FIX - REMOVED 2026-02-25 */
+/*
 .narrow-nav .clipboard-wrapper.clipboard-wrapper {
   top: 4.5%;
   left: calc(36%);
@@ -7037,8 +6996,9 @@ body.cpanel-background
     left: calc(54%);
   }
 }
-
+*/
 /* END OF CLIPBOARD PLACEMENT FIX */
+
 /* ACTIVE WIDGET SETTINGS */
 #active-widget-settings#active-widget-settings {
   height: auto;
@@ -10753,7 +10713,7 @@ div.action-domain-wrapper a.action-url {
 }
 
 .fast-pulse {
-  animation: unset !important;
+  /* animation: unset !important; */
 }
 
 .add-header-widgets-popup .widget-item:hover::before {
@@ -12052,14 +12012,6 @@ span.onoffswitch-switch {
   font-size: 46px;
   display: block;
   margin-bottom: 10px;
-}
-
-.clipboard-wrapper.open .clip-scale {
-  top: 45px;
-}
-
-.clipboard-wrapper .clip-icon {
-  top: 5px;
 }
 
 .contact-profile-sidebar .box-shadow a[data-action="addTag"] {
