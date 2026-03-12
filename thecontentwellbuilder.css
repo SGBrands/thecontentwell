@@ -13418,16 +13418,6 @@ tr.product-header:hover {
   float: right;
 }
 
-#marketingBtn span {
-  font-size: 0;
-  display: flex;
-}
-
-#marketingBtn span:before {
-  content: "Marketing";
-  font-size: 14px;
-}
-
 .admin-form-steps-wrapper input {
   margin-top: 5px !important;
   height: 35px !important;
@@ -14515,4 +14505,39 @@ body.members-nav .members-navigation.engage-navigation .engage-main-nav
 	left: unset !important;
 	right: 0 !important;
 }
+
+/* CHANGE TOP MENU ITEM Contacts TEXT TO CRM */
+#action-bar .logo-navs-wrapper .top-bar-nav-item#engageBtn span:before
+{
+	content: "CRM";
+    font-size: 14px;
+}
+#action-bar .logo-navs-wrapper .top-bar-nav-item#engageBtn span {
+    font-size: 0;
+    display: flex;
+}
+/* END OF CHANGE TOP MENU ITEM Contacts TEXT TO CRM */
+
+/* CHANGE TOP MENU ITEM Messaging & Workflows to Marketing then to Emails & Automations */
+#action-bar .logo-navs-wrapper .top-bar-nav-item#marketingBtn span:before {
+  /* content: "Marketing"; */
+  content: "Emails & Automations";
+  font-size: 14px;
+}
+#action-bar .logo-navs-wrapper .top-bar-nav-item#marketingBtn span {
+  font-size: 0;
+  display: flex;
+}
+/* CHANGE TOP MENU ITEM Messaging & Workflows to Marketing then to Emails & Automations */
+
+/* CHANGE Messaging & Workflows (Emails & Automations) > Campaigns Menu Item to Newsletters & SMS */
+body.members-nav .members-navigation ul.mobile-hidden li.campaigns > a[href='/me/crm/marketing/campaigns'] > span:has(.material-icons-outlined):after {
+	content: "Newsletters & SMS";
+	font-size: 15px;
+}
+body.members-nav .members-navigation ul.mobile-hidden li.campaigns > a[href='/me/crm/marketing/campaigns'] > span:has(.material-icons-outlined) {
+	font-size: 0;
+}
+/* END OF CHANGE Messaging & Workflows (Emails & Automations) > Campaigns Menu Item to Newsletters & SMS */
+
 /** END OF SIGH NEW CSS **/
