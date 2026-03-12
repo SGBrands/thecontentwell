@@ -14540,4 +14540,14 @@ body.members-nav .members-navigation ul.mobile-hidden li.campaigns > a[href='/me
 }
 /* END OF CHANGE Messaging & Workflows (Emails & Automations) > Campaigns Menu Item to Newsletters & SMS */
 
+/* COMMUNITY > CIRCLES > VIDEO PLAYLIST SETTINGS WIDGET TITLE FIX */
+body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPlaylistSetting) .cpanel-popup-title .ptSans:before
+{
+	content: "Video Playlist";
+}
+body.cpanel-background > div.cpanel-popup.full-height-popup:has(#sidebarVideoPlaylistSetting) .popup-widget-wrapper > h4.h4-bigger
+{
+	display: none;
+}
+/* END OF COMMUNITY > CIRCLES > VIDEO PLAYLIST SETTINGS WIDGET TITLE FIX */
 /** END OF SIGH NEW CSS **/
